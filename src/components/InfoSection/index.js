@@ -9,7 +9,7 @@ import {
     InfoP,
 } from './InfoElements'
 
-export default function Info({id}) {
+export default function Info({id, id2}) {
     return(
         <>
         <InfoContainer id={id}>

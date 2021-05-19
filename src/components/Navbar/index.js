@@ -48,12 +48,8 @@ export default function Navbar() {
                 </NavLink>
             </NavbarItem>
             <NavbarItem>
-                <NavLink to="/">
-                Experiência
-                </NavLink>
-            </NavbarItem>
-            <NavbarItem>
-                <NavLink to="/">
+                <NavLink to="experience"
+                smooth={true} duration={500} spy={true} exact='true'>
                 Contato 
                 </NavLink>
             </NavbarItem>
