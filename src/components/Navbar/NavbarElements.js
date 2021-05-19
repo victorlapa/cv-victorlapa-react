@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? 'transparent' : '#000')};
+    /* background: ${({scrollNav}) => (scrollNav ? 'transparent' : '#000')}; */
+    background: #000;
     height: 80px;
     position: sticky;
     top: 0;

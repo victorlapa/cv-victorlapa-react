@@ -9,7 +9,7 @@ export const InfoWrapper = styled.div`
     display: block;
     align-items: center;
     justify-content: center;
-    height: 1500px;
+    height: 1100px;
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
@@ -28,7 +28,7 @@ export const TextWrapper = styled.div`
 
 export const InfoHeader = styled.h1`
     color: #fff;
-    font-size: 80px;
+    font-size: 50px;
     line-height: 10px;
     margin-bottom: 24px;
     z-index: 5;
@@ -41,15 +41,15 @@ export const InfoP = styled.p`
     color: #fff;
     max-width: 1200px;
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 `
 
 export const InfoImage = styled.img`
-    margin-bottom: 75px;
+    margin-bottom: 30px;
     border-radius: 50%;
 `

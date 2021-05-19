@@ -24,7 +24,7 @@ export default function Contact() {
             <ContactText>(47)99697-8360</ContactText>
             <ContactWrapper>
                 <ContactCard>
-                    <IconLink href="//https://wa.link/ma5asc" target="_blank">
+                    <IconLink href="//api.whatsapp.com/send?phone=5547996978360" target="_blank">
                         <FaWhatsapp style={iconStyle} />
                         <ContactH2>WhatsApp</ContactH2>
                     </IconLink>
