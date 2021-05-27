@@ -2,10 +2,11 @@ import styled from 'styled-components'
 
 export const ContactContainer = styled.div`
     background: #222831;
-    height: 800px;
+    height: 1000px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-decoration: none;
 `
 
 export const ContactWrapper = styled.div`
@@ -20,12 +21,14 @@ export const ContactWrapper = styled.div`
     max-width: 1000px;
     display: grid;
     padding-top: 40px;
+    color: #222831;
+    padding-bottom: 40px;
 `
 
 export const ContactCard = styled.div`
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: #393e46;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -34,6 +37,8 @@ export const ContactCard = styled.div`
     transition: all 200ms ease-in-out;
     height: 400px;
     width: 400px;
+    text-decoration: none;
+    text-decoration-line: none;
 
     &:hover {
         transform: scale(1.2);
@@ -53,12 +58,14 @@ export const ContactH2 = styled.h2`
     color: #000;
     justify-content: center;
     text-align: center;
+    padding-top: 50px;
 `
 
 export const ContactHeader = styled.h1`
     font-size: 80px;
     padding-bottom: 100px;
     color: #fff;
+    padding-top: 150px;
 `
 
 export const IconLink = styled.a`
@@ -72,5 +79,5 @@ export const ContactText = styled.h2`
     color: #fff;
     justify-content: center;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 `

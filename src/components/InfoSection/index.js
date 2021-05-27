@@ -12,7 +12,7 @@ import {
 export default function Info({id, id2}) {
     return(
         <>
-        <InfoContainer id={id}>
+        <InfoContainer id="about">
             <InfoWrapper>
                     <TextWrapper>
                         <InfoImage src={ProfileImg} />
